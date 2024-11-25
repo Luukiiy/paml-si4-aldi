@@ -1,10 +1,10 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
-const App = () => {
+const MyApp = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Hello Sistem Informasi</Text>
+      <Text style={styles.text}>Halo Ayam</Text>
       <Text style={styles.text}>Fakultas Sains dan Teknologi</Text>
     </View>
   );
@@ -16,11 +16,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#fcfc03',
-  },
+  },  
   text: {
     fontSize: 30,
-    color: '#333'
+    color: '#0000'
   }
 });
 
-export default App;
+export default MyApp;
